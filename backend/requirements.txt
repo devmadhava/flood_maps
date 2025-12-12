@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+geopandas
+rasterio
+shapely
+pandas
+numpy
+whitebox
+pyproj
+matplotlib
+gdal
+fiona
+pydantic
+requests
