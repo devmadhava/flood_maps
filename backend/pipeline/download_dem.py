@@ -31,6 +31,9 @@ def download_dem(lat, lon, dem_output_path):
     east  = lon + RADIUS_IN_DEGREE
     print(f"BBOX: W={west}, S={south}, E={east}, N={north}")
     
+    # Insert API KEY HERE
+    # API_KEY = 
+    
     # polygon = Polygon([(lon, lat) for lat, lon in circle_polygon_coords])
     # minx, miny, maxx, maxy = polygon.bounds
     # print("W:", minx, "S:", miny, "E:", maxx, "N:", maxy)
